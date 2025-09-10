@@ -81,22 +81,21 @@ Built by **Giampiero Zampolli** ([@giampi-ai](https://github.com/giampi-ai)) to 
 
 ## Project Structure
 ```
-precision-estimator/
-├── README.md                 # Project documentation
-├── LICENSE                   # MIT License
-├── requirements.txt          # Python dependencies
-├── pricingestimator.py       # Main entry point script
-├── estimator/                # Core estimator modules
-│   ├── __init__.py
-│   ├── core.py               # Calculation logic
-│   ├── services.py           # Service definitions and pricing data
-│   └── utils.py              # Helper functions
-├── data/
-│   └── price_sheet.csv       # Editable price sheet data
-├── outputs/
-│   └── sample_estimate.pdf   # Sample exported estimate (planned)
-└── tests/
-    └── test_core.py          # Unit tests
+📁 precision-estimator
+    └── README.md                 # Project documentation
+    └── LICENSE                   # MIT License
+    └── requirements.txt          # Python dependencies
+    └── pricingestimator.py       # Main entry point script
+    └──📂 estimator               # Core estimator modules
+        └── __init__.py
+        └── core.py               # Calculation logic
+        └── services.py           # Service definitions and pricing data
+    └──📂 data
+        └── price_sheet.csv       # Editable price sheet data
+    └──📂 outputs
+        └── sample_estimate.pdf   # Sample exported estimate (planned) 
+    └──📂 tests
+        └── test_core.py          # Unit tests
 ```
 
 ## Roadmap
